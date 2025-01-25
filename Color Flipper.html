@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>JavaScript</title>
+    <title>Color Flipper</title>
     <style>
-        body{
+        body {
             background-color: white;
         }
-        button{
+        button {
             border: solid;
             padding: 20px 40px 20px 40px;
             margin-right: 20px;
@@ -15,26 +15,24 @@
             border-width: 10px;
             font-weight: 600;
         }
-        #green{
+        #green {
             background-color: green;
         }
-        #red{
+        #red {
             background-color: red;
         }
-        #blue{
+        #blue {
             background-color: blue;
         }
-
     </style>
-    
 </head>
 <body>
-    <h4>Color Flippper</h4>
-    <button id="green" onclick="colorchange(`green`)">Green</button>
-    <button id="red" onclick="colorchange(`red`)">Red</button>
-    <button id="blue" onclick="colorchange(`blue`)">Blue</button>
+    <h4>Color Flipper</h4>
+    <button id="green" onclick="colorchange('green')">Green</button>
+    <button id="red" onclick="colorchange('red')">Red</button>
+    <button id="blue" onclick="colorchange('blue')">Blue</button>
     <button id="random" onclick="randomcolor()">Random</button>
-
+    <button id="rgb" onclick="toggleRgb()">Start</button>
     <script src="Script.js"></script>
 </body>
 </html>
